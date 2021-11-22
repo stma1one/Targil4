@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+        <ImageButton
+                android:layout_width="50dp" 
+                android:layout_height="wrap_content"
+            android:id="@+id/imgSettings"
+            android:src="@drawable/settings" android:background="@android:color/transparent" android:scaleType="centerInside" android:contentDescription="settings Wheels"/>
+       
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        
+       
+        android:orientation="horizontal">
+        
+        <Button 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/btnMinus"
+            android:textSize="60sp"
+            
+           
+            android:id="@+id/btnMinus" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/btnvalue"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:id="@+id/tvTemp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="@string/btnPlus"
+           
+            android:textSize="60sp"
+            android:id="@+id/btnPlus"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+       
+        >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/btnOn"
+        android:textAllCaps="false"
+         
+        android:layout_weight="1"
+        android:textSize="35sp"
+        android:layout_margin="10dp"
+        android:id="@+id/btnOn" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:text="@string/btnOff"
+        android:layout_margin="10dp"
+        android:textSize="35sp"
+        android:id="@+id/btnOff" />
+        </LinearLayout>
+    </LinearLayout>

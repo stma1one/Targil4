@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">Remote Control</string>
+  <string name="action_settings">Settings</string>
+  <string name="btnPlus">+</string>
+  <string name="btnMinus">-</string>
+  <string name="btnvalue">0</string>
+  <string name="btnOn">On</string>
+  <string name="btnOff">Off</string>
+  <string name="maxtemp">טמפרטורה מקסימלית</string>
+  <string name="mintemp">טמפרטורה מינימלית</string>
+  <string name="btnSave">Update</string>
+  <string name="btnCancel">Cancel</string>
+  <string name="currentTemp">טמפרטורה נוכחית</string>
+</resources>
